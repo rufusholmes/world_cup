@@ -6,10 +6,6 @@ include: "*.view"
 # include all the dashboards
 include: "*.dashboard"
 
-explore: players {}
-
-explore: projects {}
-
 explore: wc_2014_players {
   join: players {
     type: left_outer

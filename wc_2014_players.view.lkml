@@ -66,13 +66,13 @@ view: wc_2014_players {
 
   measure: count {
     type: count
-    drill_fields: [name,team,caps,club]
+    drill_fields: [name,team,caps,position,club]
   }
 
   measure: average_age {
     type:  average
     sql: ${age} ;;
-    value_format: "#"
+    value_format: "#.#"
   }
 
 
