@@ -66,7 +66,7 @@ view: wc_2014_players {
 
   measure: count {
     type: count
-    drill_fields: [id, name]
+    drill_fields: [name,team,caps,club]
   }
 
   measure: average_age {
