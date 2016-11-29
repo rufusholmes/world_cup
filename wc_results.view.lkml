@@ -14,12 +14,12 @@ view: wc_results {
 
   dimension: score_a {
     type: number
-    sql: ${TABLE}.scoreA ;;
+    sql: ${TABLE}.scorea ;;
   }
 
   dimension: score_b {
     type: number
-    sql: ${TABLE}.scoreB ;;
+    sql: ${TABLE}.scoreb ;;
   }
 
   dimension: stage {
@@ -29,12 +29,12 @@ view: wc_results {
 
   dimension: team_a {
     type: string
-    sql: ${TABLE}.teamA ;;
+    sql: ${TABLE}.teama ;;
   }
 
   dimension: team_b {
     type: string
-    sql: ${TABLE}.teamB ;;
+    sql: ${TABLE}.teamb ;;
   }
 
   dimension: winner {
@@ -51,4 +51,6 @@ view: wc_results {
     type: count
     drill_fields: [id]
   }
+
+
 }

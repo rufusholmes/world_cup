@@ -66,4 +66,10 @@ view: players {
     type: count
     drill_fields: [id, name]
   }
+
+  measure: average_height {
+    type: average
+    sql: ${height_cm} ;;
+    value_format: "#"
+  }
 }
