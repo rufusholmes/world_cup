@@ -29,7 +29,7 @@ view: wc_2014_players {
 
   dimension_group: dob {
     type: time
-    timeframes: [date, year, month, day_of_month,day_of_week]
+    timeframes: [date, year, month, day_of_month, day_of_week, month_name, quarter_of_year]
     convert_tz: no
     sql: ${TABLE}.dob ;;
   }
